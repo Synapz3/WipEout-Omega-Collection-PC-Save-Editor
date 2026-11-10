@@ -1,0 +1,12 @@
+# WipEout Omega Save Editor - requirements
+#
+# No third-party packages are needed: the editor uses only the Python standard library.
+#
+#   Python 3.7 or newer (tested with 3.14), with Tkinter / Tcl-Tk 8.6
+#       Windows: python.org installer, keep "tcl/tk and IDLE" ticked (default)
+#
+# Standard-library modules used: tkinter (ttk, messagebox, filedialog, simpledialog, font), os, re,
+# shutil, struct, subprocess, sys, datetime, json, ctypes (Windows only, optional: sharp text on
+# high-DPI screens).
+#
+# Nothing to install with pip. (`pip install -r requirements.txt` succeeds and installs nothing.)
